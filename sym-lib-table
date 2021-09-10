@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Parts)(type Legacy)(uri ${KIPRJMOD}/Parts/Parts.lib)(options "")(descr ""))
+  (lib (name Digikey-USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+)

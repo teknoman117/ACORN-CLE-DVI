@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ACORN-CLE-HDMI)(type KiCad)(uri ${KIPRJMOD}/Footprints)(options "")(descr ""))
+  (lib (name Digikey)(type KiCad)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+)
