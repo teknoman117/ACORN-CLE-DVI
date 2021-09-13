@@ -21,6 +21,8 @@ F 0 "U1" H 6050 4250 50  0000 C CNN
 F 1 "PI3HDX511D" H 6800 4250 50  0000 C CNN
 F 2 "ACORN-CLE-HDMI:TQFN-30" H 7100 4000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/diodes_inc_diod-s-a0004145302-1-1749206.pdf" H 7100 4000 50  0001 C CNN
+F 4 "PI3HDX511DZLEXDITR-ND" H 6500 3400 50  0001 C CNN "Digikey_PN"
+F 5 "https://www.digikey.com/en/products/detail/diodes-incorporated/PI3HDX511DZLEX/6237527" H 6500 3400 50  0001 C CNN "Digikey_Link"
 	1    6500 3400
 	1    0    0    -1  
 $EndComp
@@ -265,13 +267,15 @@ Wire Wire Line
 Wire Wire Line
 	7250 4350 7250 4450
 $Comp
-L Device:C_Small C9
+L Device:C_Small C14
 U 1 1 613C7E59
 P 7250 4550
-F 0 "C9" H 7342 4596 50  0000 L CNN
+F 0 "C14" H 7342 4596 50  0000 L CNN
 F 1 "4u7" H 7342 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7250 4550 50  0001 C CNN
-F 3 "~" H 7250 4550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05A475MP5NRNC.jsp" H 7250 4550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3887140" H 7250 4550 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1482-2-ND" H 7250 4550 50  0001 C CNN "Digikey_PN"
 	1    7250 4550
 	1    0    0    -1  
 $EndComp
@@ -325,7 +329,9 @@ P 3750 2600
 F 0 "C1" V 3850 2700 50  0000 C CNN
 F 1 "100n" V 3850 2450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 2600 50  0001 C CNN
-F 3 "~" H 3750 2600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 2600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 2600 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 2600 50  0001 C CNN "Digikey_PN"
 	1    3750 2600
 	0    -1   -1   0   
 $EndComp
@@ -336,7 +342,9 @@ P 3750 2800
 F 0 "C2" V 3850 2900 50  0000 C CNN
 F 1 "100n" V 3850 2650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 2800 50  0001 C CNN
-F 3 "~" H 3750 2800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 2800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 2800 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 2800 50  0001 C CNN "Digikey_PN"
 	1    3750 2800
 	0    -1   -1   0   
 $EndComp
@@ -347,7 +355,9 @@ P 3750 3000
 F 0 "C3" V 3850 3100 50  0000 C CNN
 F 1 "100n" V 3850 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3000 50  0001 C CNN
-F 3 "~" H 3750 3000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 3000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 3000 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 3000 50  0001 C CNN "Digikey_PN"
 	1    3750 3000
 	0    -1   -1   0   
 $EndComp
@@ -358,7 +368,9 @@ P 3750 3200
 F 0 "C4" V 3850 3300 50  0000 C CNN
 F 1 "100n" V 3850 3050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3200 50  0001 C CNN
-F 3 "~" H 3750 3200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 3200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 3200 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 3200 50  0001 C CNN "Digikey_PN"
 	1    3750 3200
 	0    -1   -1   0   
 $EndComp
@@ -369,7 +381,9 @@ P 3750 3400
 F 0 "C5" V 3850 3500 50  0000 C CNN
 F 1 "100n" V 3850 3250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3400 50  0001 C CNN
-F 3 "~" H 3750 3400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 3400 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 3400 50  0001 C CNN "Digikey_PN"
 	1    3750 3400
 	0    -1   -1   0   
 $EndComp
@@ -380,7 +394,9 @@ P 3750 3600
 F 0 "C6" V 3850 3700 50  0000 C CNN
 F 1 "100n" V 3850 3450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3600 50  0001 C CNN
-F 3 "~" H 3750 3600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 3600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 3600 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 3600 50  0001 C CNN "Digikey_PN"
 	1    3750 3600
 	0    -1   -1   0   
 $EndComp
@@ -391,7 +407,9 @@ P 3750 3800
 F 0 "C7" V 3850 3900 50  0000 C CNN
 F 1 "100n" V 3850 3650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 3800 50  0001 C CNN
-F 3 "~" H 3750 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 3800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 3800 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 3800 50  0001 C CNN "Digikey_PN"
 	1    3750 3800
 	0    -1   -1   0   
 $EndComp
@@ -402,7 +420,9 @@ P 3750 4000
 F 0 "C8" V 3850 4100 50  0000 C CNN
 F 1 "100n" V 3850 3850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 4000 50  0001 C CNN
-F 3 "~" H 3750 4000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3750 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 3750 4000 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 3750 4000 50  0001 C CNN "Digikey_PN"
 	1    3750 4000
 	0    -1   -1   0   
 $EndComp
@@ -561,7 +581,9 @@ P 9400 3800
 F 0 "J1" H 9100 4850 50  0000 L CNN
 F 1 "HDMI_A" H 9550 4850 50  0000 L CNN
 F 2 "Digikey:HDMI_A_Female_2000-1-2-41-00-BK" H 9425 3800 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 9425 3800 50  0001 C CNN
+F 3 "http://www.cnctech.us/pdfs/2000-1-2-41-00-BK.pdf" H 9425 3800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/cnc-tech/2000-1-2-41-00-BK/4867012" H 9400 3800 50  0001 C CNN "Digikey_Link"
+F 5 "1175-1703-ND" H 9400 3800 50  0001 C CNN "Digikey_PN"
 	1    9400 3800
 	1    0    0    -1  
 $EndComp
@@ -572,7 +594,9 @@ P 8850 2250
 F 0 "R3" H 8918 2296 50  0000 L CNN
 F 1 "2K2" H 8918 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8850 2250 50  0001 C CNN
-F 3 "~" H 8850 2250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8850 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402JR-072K2L/726436" H 8850 2250 50  0001 C CNN "Digikey_Link"
+F 5 "311-2.2KJRTR-ND" H 8850 2250 50  0001 C CNN "Digikey_PN"
 	1    8850 2250
 	1    0    0    -1  
 $EndComp
@@ -587,7 +611,9 @@ P 9150 2250
 F 0 "R4" H 9218 2296 50  0000 L CNN
 F 1 "2K2" H 9218 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9150 2250 50  0001 C CNN
-F 3 "~" H 9150 2250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9150 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402JR-072K2L/726436" H 9150 2250 50  0001 C CNN "Digikey_Link"
+F 5 "311-2.2KJRTR-ND" H 9150 2250 50  0001 C CNN "Digikey_PN"
 	1    9150 2250
 	1    0    0    -1  
 $EndComp
@@ -627,7 +653,9 @@ P 3600 4700
 F 0 "R1" H 3668 4746 50  0000 L CNN
 F 1 "2K2" H 3668 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 4700 50  0001 C CNN
-F 3 "~" H 3600 4700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3600 4700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402JR-072K2L/726436" H 3600 4700 50  0001 C CNN "Digikey_Link"
+F 5 "311-2.2KJRTR-ND" H 3600 4700 50  0001 C CNN "Digikey_PN"
 	1    3600 4700
 	1    0    0    -1  
 $EndComp
@@ -638,7 +666,9 @@ P 3900 4700
 F 0 "R2" H 3968 4746 50  0000 L CNN
 F 1 "2K2" H 3968 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 4700 50  0001 C CNN
-F 3 "~" H 3900 4700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3900 4700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0402JR-072K2L/726436" H 3900 4700 50  0001 C CNN "Digikey_Link"
+F 5 "311-2.2KJRTR-ND" H 3900 4700 50  0001 C CNN "Digikey_PN"
 	1    3900 4700
 	1    0    0    -1  
 $EndComp
@@ -691,7 +721,9 @@ P 2500 3600
 F 0 "J2" H 2588 3514 50  0000 L CNN
 F 1 "Acorn" H 2588 3423 50  0000 L CNN
 F 2 "ACORN-CLE-HDMI:Hirose_DF52-20S-0.8H_1x20-1MP_P0.80mm_Horizontal" H 2500 3600 50  0001 C CNN
-F 3 "~" H 2500 3600 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF52&documenttype=Catalog&lang=en&documentid=D51171_en" H 2500 3600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF52-20S-0-8H-21/5721363" H 2500 3600 50  0001 C CNN "Digikey_Link"
+F 5 "H125108TR-ND" H 2500 3600 50  0001 C CNN "Digikey_PN"
 	1    2500 3600
 	1    0    0    -1  
 $EndComp
@@ -812,35 +844,41 @@ Entry Wire Line
 	1600 4400 1700 4500
 NoConn ~ 2300 4200
 $Comp
-L Device:C_Small C10
+L Device:C_Small C11
 U 1 1 615BD62D
 P 8800 5850
-F 0 "C10" H 8892 5896 50  0000 L CNN
+F 0 "C11" H 8892 5896 50  0000 L CNN
 F 1 "10u" H 8892 5805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8800 5850 50  0001 C CNN
-F 3 "~" H 8800 5850 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 8800 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A106ME11D/12091056" H 8800 5850 50  0001 C CNN "Digikey_Link"
+F 5 "490-GRM155R61A106ME11DTR-ND" H 8800 5850 50  0001 C CNN "Digikey_PN"
 	1    8800 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C11
+L Device:C_Small C9
 U 1 1 615BDB2B
 P 9200 5850
-F 0 "C11" H 9292 5896 50  0000 L CNN
+F 0 "C9" H 9292 5896 50  0000 L CNN
 F 1 "100n" H 9292 5805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9200 5850 50  0001 C CNN
-F 3 "~" H 9200 5850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 9200 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 9200 5850 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 9200 5850 50  0001 C CNN "Digikey_PN"
 	1    9200 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L Device:C_Small C10
 U 1 1 615BDF6F
 P 9600 5850
-F 0 "C12" H 9692 5896 50  0000 L CNN
+F 0 "C10" H 9692 5896 50  0000 L CNN
 F 1 "100n" H 9692 5805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9600 5850 50  0001 C CNN
-F 3 "~" H 9600 5850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 9600 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701" H 9600 5850 50  0001 C CNN "Digikey_Link"
+F 5 "1276-1043-2-ND" H 9600 5850 50  0001 C CNN "Digikey_PN"
 	1    9600 5850
 	1    0    0    -1  
 $EndComp
@@ -881,9 +919,11 @@ L Device:Ferrite_Bead_Small FB1
 U 1 1 615E1533
 P 2250 2500
 F 0 "FB1" H 2000 2550 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 1450 2450 50  0000 L CNN
+F 1 "100 ohm @ 100 MHz" H 1400 2450 50  0000 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 2180 2500 50  0001 C CNN
-F 3 "~" H 2250 2500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/BLM18yyyyyyN1x.pdf" H 2250 2500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/BLM18KG101TN1D/2260753" H 2250 2500 50  0001 C CNN "Digikey_Link"
+F 5 "490-5448-2-ND" H 2250 2500 50  0001 C CNN "Digikey_PN"
 	1    2250 2500
 	1    0    0    -1  
 $EndComp
@@ -907,13 +947,15 @@ Wire Wire Line
 	6550 4700 6700 4700
 Connection ~ 6550 4700
 $Comp
-L Device:C_Small C14
+L Device:C_Small C12
 U 1 1 61663765
 P 3950 6500
-F 0 "C14" H 4042 6546 50  0000 L CNN
+F 0 "C12" H 4042 6546 50  0000 L CNN
 F 1 "10u" H 4042 6455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3950 6500 50  0001 C CNN
-F 3 "~" H 3950 6500 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 3950 6500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A106ME11D/12091056" H 3950 6500 50  0001 C CNN "Digikey_Link"
+F 5 "490-GRM155R61A106ME11DTR-ND" H 3950 6500 50  0001 C CNN "Digikey_PN"
 	1    3950 6500
 	1    0    0    -1  
 $EndComp
@@ -949,6 +991,8 @@ F 0 "U2" H 3650 6915 50  0000 C CNN
 F 1 "XC9141" H 3650 6824 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3700 6150 50  0001 C CNN
 F 3 "https://www.torexsemi.com/file/xc9141/XC9141-XC9142.pdf" H 3650 6500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/torex-semiconductor-ltd/XC9141B50CMR-G/6148745" H 3650 6500 50  0001 C CNN "Digikey_Link"
+F 5 "893-1369-2-ND" H 3650 6500 50  0001 C CNN "Digikey_PN"
 	1    3650 6500
 	1    0    0    -1  
 $EndComp
@@ -965,7 +1009,9 @@ P 2950 6800
 F 0 "C13" H 3042 6846 50  0000 L CNN
 F 1 "10u" H 3042 6755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2950 6800 50  0001 C CNN
-F 3 "~" H 2950 6800 50  0001 C CNN
+F 3 "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&cvid=20210120024548000000" H 2950 6800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A106ME11D/12091056" H 2950 6800 50  0001 C CNN "Digikey_Link"
+F 5 "490-GRM155R61A106ME11DTR-ND" H 2950 6800 50  0001 C CNN "Digikey_PN"
 	1    2950 6800
 	1    0    0    -1  
 $EndComp
@@ -976,7 +1022,9 @@ P 3150 6350
 F 0 "L1" V 2969 6350 50  0000 C CNN
 F 1 "4u7" V 3060 6350 50  0000 C CNN
 F 2 "Inductor_SMD:L_1008_2520Metric" H 3150 6350 50  0001 C CNN
-F 3 "~" H 3150 6350 50  0001 C CNN
+F 3 "https://abracon.com/Magnetics/inductors/AIML-1008HC.pdf" H 3150 6350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/abracon-llc/AIML-1008HC-4R7M-T/5043494" H 3150 6350 50  0001 C CNN "Digikey_Link"
+F 5 "535-12797-2-ND" H 3150 6350 50  0001 C CNN "Digikey_PN"
 	1    3150 6350
 	0    1    1    0   
 $EndComp
