@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Acorn CLE 215(+)/101 HDMI/DVI Adapter"
-Date ""
+Date "09/13/2021"
 Rev "1.0"
 Comp ""
-Comment1 ""
+Comment1 "Use a DisplayPort to TMDS level shifter to get HDMI from an Acorn CLE 215(+)/101"
 Comment2 ""
 Comment3 ""
 Comment4 ""

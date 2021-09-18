@@ -5,3 +5,7 @@ Add DVI support to the Acorn CLE-215(+)/101 by using AC coupling and an HDMI red
 ### License
 
 CC-BY-SA 4.0
+
+### Schematic
+
+![Schematic](/Assets/ACORN-CLE-DVI-SCH.webp)
